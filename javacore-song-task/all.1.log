@@ -1,149 +1,461 @@
-20.03.2020 13:09:00.706 [main] DEBUG ru.liga.App - Try to find track
-20.03.2020 13:09:00.717 [main] TRACE ru.liga.App - Getting fit tracks
-20.03.2020 13:09:00.717 [main] TRACE ru.liga.App - Extract tracks
-20.03.2020 13:09:00.764 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
-20.03.2020 13:09:00.764 [main] TRACE ru.liga.App - Track with voice
-20.03.2020 13:09:00.766 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.766 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.766 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.766 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:09:00.766 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.767 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:00.768 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:00.769 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
-20.03.2020 13:09:00.781 [main] DEBUG ru.liga.App - All TextEvent in file 404
-20.03.2020 13:09:00.786 [main] TRACE ru.liga.App - Track Range Analysis
-20.03.2020 13:09:00.792 [main] INFO  ru.liga.App - Range :
-20.03.2020 13:09:00.794 [main] INFO  ru.liga.App -  Upper: A#4
-20.03.2020 13:09:00.795 [main] INFO  ru.liga.App -  Lower: F3
-20.03.2020 13:09:00.796 [main] INFO  ru.liga.App -  Range: 17
-20.03.2020 13:09:23.746 [main] DEBUG ru.liga.App - Try to find track
-20.03.2020 13:09:23.749 [main] TRACE ru.liga.App - Getting fit tracks
-20.03.2020 13:09:23.749 [main] TRACE ru.liga.App - Extract tracks
-20.03.2020 13:09:23.788 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
-20.03.2020 13:09:23.788 [main] TRACE ru.liga.App - Track with voice
-20.03.2020 13:09:23.789 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.789 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.789 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.789 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:09:23.790 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
-20.03.2020 13:09:23.793 [main] DEBUG ru.liga.App - All TextEvent in file 404
-20.03.2020 13:09:23.796 [main] TRACE ru.liga.App - Track Range Analysis
-20.03.2020 13:09:23.797 [main] INFO  ru.liga.App - Range :
-20.03.2020 13:09:23.798 [main] INFO  ru.liga.App -  Upper: A#4
-20.03.2020 13:09:23.798 [main] INFO  ru.liga.App -  Lower: F3
-20.03.2020 13:09:23.798 [main] INFO  ru.liga.App -  Range: 17
-20.03.2020 13:10:16.128 [main] DEBUG ru.liga.App - Try to find track
-20.03.2020 13:10:16.131 [main] TRACE ru.liga.App - Getting fit tracks
-20.03.2020 13:10:16.131 [main] TRACE ru.liga.App - Extract tracks
-20.03.2020 13:10:16.157 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
-20.03.2020 13:10:16.157 [main] TRACE ru.liga.App - Track with voice
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.158 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.159 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:10:16.159 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:10:16.159 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
-20.03.2020 13:10:16.161 [main] DEBUG ru.liga.App - All TextEvent in file 404
-20.03.2020 13:10:16.164 [main] TRACE ru.liga.App - Track Range Analysis
-20.03.2020 13:10:16.165 [main] INFO  ru.liga.App - Range :
-20.03.2020 13:10:16.166 [main] INFO  ru.liga.App -  Upper: A#4
-20.03.2020 13:10:16.166 [main] INFO  ru.liga.App -  Lower: F3
-20.03.2020 13:10:16.166 [main] INFO  ru.liga.App -  Range: 17
-20.03.2020 13:11:55.879 [main] DEBUG ru.liga.App - Try to find track
-20.03.2020 13:11:55.882 [main] TRACE ru.liga.App - Getting fit tracks
-20.03.2020 13:11:55.882 [main] TRACE ru.liga.App - Extract tracks
-20.03.2020 13:11:55.913 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
-20.03.2020 13:11:55.913 [main] TRACE ru.liga.App - Track with voice
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.914 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:11:55.915 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
-20.03.2020 13:11:55.918 [main] DEBUG ru.liga.App - All TextEvent in file 404
-20.03.2020 13:11:55.920 [main] TRACE ru.liga.App - Analysis of track notes by duration.
-20.03.2020 13:11:55.921 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
-20.03.2020 13:11:55.923 [main] INFO  ru.liga.App - The number of notes by duration
-20.03.2020 13:11:55.924 [main] INFO  ru.liga.App - 56640000ms: 218
-20.03.2020 13:11:55.924 [main] INFO  ru.liga.App - 86400000ms: 4
-20.03.2020 13:11:55.925 [main] INFO  ru.liga.App - 28800000ms: 9
-20.03.2020 13:11:55.925 [main] INFO  ru.liga.App - 85440000ms: 33
-20.03.2020 13:11:55.927 [main] INFO  ru.liga.App - 115200000ms: 40
-20.03.2020 13:11:55.927 [main] INFO  ru.liga.App - 57600000ms: 10
-20.03.2020 13:11:55.927 [main] INFO  ru.liga.App - 171840000ms: 16
-20.03.2020 13:11:55.927 [main] INFO  ru.liga.App - 114240000ms: 72
-20.03.2020 13:12:13.273 [main] DEBUG ru.liga.App - Try to find track
-20.03.2020 13:12:13.277 [main] TRACE ru.liga.App - Getting fit tracks
-20.03.2020 13:12:13.277 [main] TRACE ru.liga.App - Extract tracks
-20.03.2020 13:12:13.308 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
-20.03.2020 13:12:13.308 [main] TRACE ru.liga.App - Track with voice
 20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Good track
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Not good track
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Checking the track for voice performance.
-20.03.2020 13:12:13.309 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:12:13.312 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:12:13.312 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:12:13.312 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:12:13.312 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:12:13.312 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:12:13.312 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:12:13.313 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:12:13.313 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:12:13.313 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:12:13.313 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
+20.03.2020 13:12:13.317 [main] DEBUG ru.liga.App - All TextEvent in file 404
+20.03.2020 13:12:13.319 [main] TRACE ru.liga.App - Analysis of track notes by duration.
+20.03.2020 13:12:13.320 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+20.03.2020 13:12:13.322 [main] INFO  ru.liga.App - The number of notes by duration
+20.03.2020 13:12:13.323 [main] INFO  ru.liga.App - 56640000ms: 218
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 86400000ms: 4
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 28800000ms: 9
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 85440000ms: 33
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 115200000ms: 40
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 57600000ms: 10
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 171840000ms: 16
+20.03.2020 13:12:13.324 [main] INFO  ru.liga.App - 114240000ms: 72
+20.03.2020 13:13:01.533 [main] DEBUG ru.liga.App - Try to find track
+20.03.2020 13:13:01.536 [main] TRACE ru.liga.App - Getting fit tracks
+20.03.2020 13:13:01.536 [main] TRACE ru.liga.App - Extract tracks
+20.03.2020 13:13:01.576 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+20.03.2020 13:13:01.577 [main] TRACE ru.liga.App - Track with voice
+20.03.2020 13:13:01.578 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.578 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.578 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.579 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:01.580 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
+20.03.2020 13:13:01.585 [main] DEBUG ru.liga.App - All TextEvent in file 404
+20.03.2020 13:13:01.589 [main] TRACE ru.liga.App - Analysis of notes by the number of occurrences.
+20.03.2020 13:13:01.591 [main] INFO  ru.liga.App - List of notes by number of occurrences
+20.03.2020 13:13:01.593 [main] INFO  ru.liga.App - D4: 48
+20.03.2020 13:13:01.594 [main] INFO  ru.liga.App - C4: 33
+20.03.2020 13:13:01.594 [main] INFO  ru.liga.App - A#3: 5
+20.03.2020 13:13:01.595 [main] INFO  ru.liga.App - A3: 15
+20.03.2020 13:13:01.595 [main] INFO  ru.liga.App - A#4: 79
+20.03.2020 13:13:01.595 [main] INFO  ru.liga.App - A4: 82
+20.03.2020 13:13:01.595 [main] INFO  ru.liga.App - F3: 5
+20.03.2020 13:13:01.596 [main] INFO  ru.liga.App - G4: 24
+20.03.2020 13:13:01.596 [main] INFO  ru.liga.App - F4: 88
+20.03.2020 13:13:01.596 [main] INFO  ru.liga.App - E4: 23
+20.03.2020 13:13:13.119 [main] DEBUG ru.liga.App - Try to find track
+20.03.2020 13:13:13.123 [main] TRACE ru.liga.App - Getting fit tracks
+20.03.2020 13:13:13.123 [main] TRACE ru.liga.App - Extract tracks
+20.03.2020 13:13:13.156 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+20.03.2020 13:13:13.156 [main] TRACE ru.liga.App - Track with voice
+20.03.2020 13:13:13.157 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.158 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.159 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:13:13.160 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:13:13.160 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
+20.03.2020 13:13:13.163 [main] DEBUG ru.liga.App - All TextEvent in file 404
+20.03.2020 13:13:13.166 [main] TRACE ru.liga.App - Analysis of notes by the number of occurrences.
+20.03.2020 13:13:13.168 [main] INFO  ru.liga.App - List of notes by number of occurrences
+20.03.2020 13:13:13.169 [main] INFO  ru.liga.App - D4: 48
+20.03.2020 13:13:13.169 [main] INFO  ru.liga.App - C4: 33
+20.03.2020 13:13:13.169 [main] INFO  ru.liga.App - A#3: 5
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - A3: 15
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - A#4: 79
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - A4: 82
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - F3: 5
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - G4: 24
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - F4: 88
+20.03.2020 13:13:13.170 [main] INFO  ru.liga.App - E4: 23
+20.03.2020 13:15:29.819 [main] DEBUG ru.liga.App - Try to find track
+20.03.2020 13:15:29.821 [main] TRACE ru.liga.App - Getting fit tracks
+20.03.2020 13:15:29.821 [main] TRACE ru.liga.App - Extract tracks
+20.03.2020 13:15:29.846 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+20.03.2020 13:15:29.847 [main] TRACE ru.liga.App - Track with voice
+20.03.2020 13:15:29.847 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.847 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.847 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.847 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:15:29.847 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Checking the track for voice performance.
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Not good track
+20.03.2020 13:15:29.848 [main] TRACE ru.liga.App - Found 2 tracks suitable for performance by voice.
+20.03.2020 13:15:29.851 [main] DEBUG ru.liga.App - All TextEvent in file 404
+25.03.2020 12:43:34.953 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:43:34.957 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:43:34.957 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:43:34.969 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:43:34.969 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:43:34.980 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:43:35.009 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:43:35.009 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:43:35.032 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:43:35.032 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:43:35.032 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:43:35.033 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:04.753 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:44:04.757 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:04.757 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:44:04.769 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:04.769 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:44:04.779 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:44:04.807 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:44:04.808 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:44:04.818 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:44:04.818 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:44:04.818 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:44:04.818 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:48.090 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:44:48.094 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:48.094 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:44:48.103 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:48.103 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:44:48.112 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:44:48.139 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:44:48.139 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:44:48.147 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:44:48.147 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:44:48.147 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:44:48.147 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:44:48.147 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:45:36.870 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:45:36.874 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:45:36.874 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:45:36.885 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:45:36.885 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:45:36.896 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:45:36.925 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:45:36.925 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:45:36.943 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:45:36.944 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:45:36.944 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:45:36.944 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:46:56.143 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:46:56.148 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:46:56.148 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:46:56.158 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:46:56.158 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:46:56.173 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:46:56.200 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:46:56.200 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:46:56.207 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:46:56.207 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:46:56.207 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:46:56.208 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:47:24.583 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:47:24.587 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:47:24.587 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:47:24.598 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:47:24.598 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:47:24.609 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:47:24.641 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:47:24.642 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:47:24.653 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:47:24.653 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:47:24.653 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:47:24.654 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:47:44.047 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:47:44.051 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:47:44.051 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:47:44.061 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:47:44.061 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:47:44.071 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:47:44.101 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:47:44.101 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:47:44.121 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:47:44.121 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:47:44.121 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:47:44.122 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:48:06.144 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:48:06.148 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:48:06.148 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:48:06.161 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:48:06.161 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:48:06.172 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:48:06.199 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:48:06.199 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:48:06.217 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:48:06.218 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:48:06.218 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:48:06.219 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:48:20.356 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:48:20.359 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:48:20.359 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:48:20.369 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:48:20.369 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:48:20.381 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:48:20.410 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:48:20.410 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:48:20.421 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:48:20.421 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:48:20.421 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:48:20.422 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:49:50.910 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:49:50.914 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:49:50.914 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:49:50.924 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:49:50.924 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:49:50.933 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:49:50.961 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:49:50.961 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:49:50.980 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:49:50.981 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:49:50.981 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:49:50.981 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:50:01.779 [main] TRACE r.l.s.util.Changer - Pace multiplier = 2.0
+25.03.2020 12:50:01.783 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:50:01.783 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:50:01.793 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:50:01.793 [main] DEBUG r.l.s.util.Changer - New Bpm = 240.0
+25.03.2020 12:50:01.802 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:50:01.832 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:50:01.833 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 12:50:01.850 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 12:50:01.851 [main] DEBUG r.l.s.util.Changer - Transpose into 20 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {A#5, S|1920, D|60}
+25.03.2020 12:50:01.851 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 12:50:01.851 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:51:35.787 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:51:35.790 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:51:35.802 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:51:35.802 [main] DEBUG r.l.s.util.Changer - New Bpm = 12000.0
+25.03.2020 12:51:35.803 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:51:57.615 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:51:57.618 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:51:57.636 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:51:57.636 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 12:51:57.636 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:52:09.808 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:52:09.811 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:52:09.820 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:52:09.820 [main] DEBUG r.l.s.util.Changer - New Bpm = 0.0
+25.03.2020 12:52:09.820 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:01.542 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:01.548 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:53:01.566 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:01.567 [main] DEBUG r.l.s.util.Changer - New Bpm = 0.0
+25.03.2020 12:53:01.567 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:01.567 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:40.560 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:40.564 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:53:40.572 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:40.572 [main] DEBUG r.l.s.util.Changer - New Bpm = 120.0
+25.03.2020 12:53:40.572 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:40.572 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:53.226 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:53.229 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:53:53.240 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:53.240 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 12:53:53.240 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:53:53.240 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:55:35.951 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:55:35.955 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:55:35.967 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:55:35.967 [main] DEBUG r.l.s.util.Changer - New Bpm = 12000.0
+25.03.2020 12:55:35.967 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:55:35.967 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:56:30.237 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:56:30.240 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:56:30.252 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:56:30.252 [main] DEBUG r.l.s.util.Changer - New Bpm = 12000.0
+25.03.2020 12:56:30.253 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:56:30.253 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:57:51.958 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:57:51.961 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 12:57:51.970 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:57:51.970 [main] DEBUG r.l.s.util.Changer - New Bpm = 12000.0
+25.03.2020 12:57:51.970 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 12:57:51.971 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:00:00.730 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:00:00.733 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:00:00.744 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:00:00.744 [main] DEBUG r.l.s.util.Changer - New Bpm = 12000.0
+25.03.2020 13:00:00.744 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:00:00.744 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:02.687 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:02.690 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:01:02.699 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:02.699 [main] DEBUG r.l.s.util.Changer - New Bpm = 120.0
+25.03.2020 13:01:02.700 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:02.700 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:51.985 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:51.989 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:51.989 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:01:51.998 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:01:51.998 [main] DEBUG r.l.s.util.Changer - New Bpm = 120.0
+25.03.2020 13:01:51.998 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:02:15.659 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:02:15.663 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:02:15.663 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:02:15.671 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:02:15.671 [main] DEBUG r.l.s.util.Changer - New Bpm = 120.0
+25.03.2020 13:02:15.671 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:28.742 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:28.746 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:28.746 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:04:28.762 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:28.762 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:04:28.762 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:49.507 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:49.511 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:49.511 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:04:49.520 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:04:49.521 [main] DEBUG r.l.s.util.Changer - New Bpm = -1200.0
+25.03.2020 13:04:49.521 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:06:53.282 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:06:53.286 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:06:53.286 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:06:53.295 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:06:53.295 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:06:53.295 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:07.635 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:07.644 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:07.645 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:07:07.665 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:07.665 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:07:07.665 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:13.071 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:13.078 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:13.078 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:07:13.090 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:13.090 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:07:13.090 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:46.259 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:46.263 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:46.263 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:07:46.276 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:07:46.276 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:07:46.276 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:27.239 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:27.243 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:27.243 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:09:27.257 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:27.257 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:09:27.257 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:58.558 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:58.562 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:58.562 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:09:58.571 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:09:58.571 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:09:58.571 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:00.163 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:00.167 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:00.168 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:11:00.175 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:00.176 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:11:00.176 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:37.096 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:37.100 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:37.100 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:11:37.111 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:37.111 [main] DEBUG r.l.s.util.Changer - New Bpm = 1200.0
+25.03.2020 13:11:37.111 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:49.713 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:49.716 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:49.717 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:11:49.726 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:11:49.727 [main] DEBUG r.l.s.util.Changer - New Bpm = 120.0
+25.03.2020 13:11:49.727 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:12:21.243 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:12:21.246 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:12:21.247 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:12:21.262 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:12:21.262 [main] DEBUG r.l.s.util.Changer - New Bpm = 120.0
+25.03.2020 13:12:21.262 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:17:04.607 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:17:04.614 [main] TRACE r.l.s.util.Changer - Pace multiplier = 1.1
+25.03.2020 13:17:04.614 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:17:04.614 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:17:04.624 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:17:04.624 [main] DEBUG r.l.s.util.Changer - New Bpm = 132.0
+25.03.2020 13:17:04.638 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:17:04.673 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:17:04.673 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:17:04.695 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:17:04.696 [main] DEBUG r.l.s.util.Changer - Transpose into 10 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {C5, S|1920, D|60}
+25.03.2020 13:17:04.696 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 13:17:04.696 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:18:18.760 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:18:18.764 [main] TRACE r.l.s.util.Changer - Pace multiplier = 1.1
+25.03.2020 13:18:18.764 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:18:18.764 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:18:18.773 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:18:18.773 [main] DEBUG r.l.s.util.Changer - New Bpm = 132.0
+25.03.2020 13:18:18.785 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:18:18.815 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:18:18.815 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:18:18.832 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:18:18.833 [main] DEBUG r.l.s.util.Changer - Transpose into 10 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {C5, S|1920, D|60}
+25.03.2020 13:18:18.833 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 13:18:18.834 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:19:07.962 [main] TRACE r.l.s.util.Changer - Pace multiplier = 1.1
+25.03.2020 13:19:07.966 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:19:07.966 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:19:07.977 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:19:07.977 [main] DEBUG r.l.s.util.Changer - New Bpm = 132.0
+25.03.2020 13:19:07.990 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:19:08.018 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:19:08.019 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:19:08.038 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:19:08.039 [main] DEBUG r.l.s.util.Changer - Transpose into 10 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {C5, S|1920, D|60}
+25.03.2020 13:19:08.039 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 13:19:08.039 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:23:44.771 [main] TRACE r.l.s.util.Changer - Pace multiplier = 1.1
+25.03.2020 13:23:44.779 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:23:44.780 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0
+25.03.2020 13:23:44.793 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:23:44.793 [main] DEBUG r.l.s.util.Changer - New Bpm = 132.0
+25.03.2020 13:23:44.808 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:23:44.848 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:23:44.849 [main] TRACE ru.liga.App - Extract tracks
+25.03.2020 13:23:44.859 [main] TRACE ru.liga.App - Tracks Extracted 10 from file.
+25.03.2020 13:23:44.860 [main] DEBUG r.l.s.util.Changer - Transpose into 10 halftones. The first note of the old track: {D4, S|1920, D|60} -> The first note of the new track {C5, S|1920, D|60}
+25.03.2020 13:23:44.860 [main] TRACE r.l.s.util.Changer - Change completed
+25.03.2020 13:23:44.860 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:23:44.862 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:23:44.862 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+25.03.2020 13:23:44.862 [main] DEBUG r.l.s.util.Changer - Old Bpm = 120.0

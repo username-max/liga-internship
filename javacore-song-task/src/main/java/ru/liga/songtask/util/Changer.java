@@ -6,7 +6,9 @@ import com.leff.midi.event.MidiEvent;
 import com.leff.midi.event.NoteOff;
 import com.leff.midi.event.NoteOn;
 import com.leff.midi.event.meta.Tempo;
+
 import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +36,7 @@ public class Changer {
         MidiTrack midiTrack1 = new MidiTrack();
         for (MidiEvent midiEvent : midiTrack.getEvents()) {
             if (midiEvent.getClass().equals(Tempo.class)) {
-                Tempo tempo = getTempo(percentTempo, (Tempo)midiEvent);
+                Tempo tempo = getTempo(percentTempo, (Tempo) midiEvent);
                 midiTrack1.getEvents().add(tempo);
                 continue;
             }
@@ -45,14 +47,14 @@ public class Changer {
 
     private static Tempo getTempo(float percentTempo, Tempo midiEvent) {
         Tempo tempo = new Tempo(midiEvent.getTick(), midiEvent.getDelta(), midiEvent.getMpqn());
-        tempo.setBpm(tempo.getBpm() * percentTempo);
+        tempo.setBpm(tempo.getBpm() / percentTempo);
         return tempo;
     }
 
     public static MidiFile transposeMidi(MidiFile midiFile, int trans) {
         MidiFile midiFile1 = new MidiFile();
         midiFile.getTracks().forEach(miditrack -> midiFile1.addTrack(transposeMidiTrack(trans, miditrack)));
-        log.debug("Transpose into {} halftones. The first note of the old track: {} -> The first note of the new track {}", new Object[] { Integer.valueOf(trans), ((List)SongUtils.getAllTracksAsNoteLists(midiFile).get(0)).get(0), ((List)SongUtils.getAllTracksAsNoteLists(midiFile1).get(0)).get(0) });
+        log.debug("Transpose into {} halftones. The first note of the old track: {} -> The first note of the new track {}", new Object[]{Integer.valueOf(trans), ((List) SongUtils.getAllTracksAsNoteLists(midiFile).get(0)).get(0), ((List) SongUtils.getAllTracksAsNoteLists(midiFile1).get(0)).get(0)});
         return midiFile1;
     }
 
@@ -60,10 +62,10 @@ public class Changer {
         MidiTrack midiTrack1 = new MidiTrack();
         midiTrack.getEvents().forEach(midiEvent -> {
             if (midiEvent.getClass().equals(NoteOn.class)) {
-                NoteOn on = getChangedNoteOn(trans, (NoteOn)midiEvent);
+                NoteOn on = getChangedNoteOn(trans, (NoteOn) midiEvent);
                 midiTrack1.getEvents().add(on);
             } else if (midiEvent.getClass().equals(NoteOff.class)) {
-                NoteOff off = getChangedNoteOff(trans, (NoteOff)midiEvent);
+                NoteOff off = getChangedNoteOff(trans, (NoteOff) midiEvent);
                 midiTrack1.getEvents().add(off);
             } else {
                 midiTrack1.getEvents().add(midiEvent);
