@@ -1,0 +1,146 @@
+24.03.2020 13:15:17.804 [main] DEBUG ru.liga.App - Analyze midi file
+24.03.2020 13:15:17.841 [main] DEBUG ru.liga.App - Try to find track
+24.03.2020 13:15:17.842 [main] TRACE ru.liga.App - Getting fit tracks
+24.03.2020 13:15:17.842 [main] TRACE ru.liga.App - Extract tracks
+24.03.2020 13:15:17.880 [main] TRACE ru.liga.App - Tracks Extracted 15 from file.
+24.03.2020 13:15:17.881 [main] TRACE ru.liga.App - Track with voice
+24.03.2020 13:15:17.883 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.884 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.884 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.884 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.886 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.886 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.886 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.886 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.886 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.886 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.887 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:15:17.888 [main] TRACE ru.liga.App - Found 8 tracks suitable for performance by voice.
+24.03.2020 13:15:17.892 [main] DEBUG ru.liga.App - All TextEvent in file 438
+24.03.2020 13:15:17.894 [main] INFO  ru.liga.App - Start analyze track
+24.03.2020 13:15:17.895 [main] TRACE ru.liga.App - Track Range Analysis
+24.03.2020 13:15:17.896 [main] INFO  ru.liga.App - Range :
+24.03.2020 13:15:17.897 [main] INFO  ru.liga.App -  Upper: G#4
+24.03.2020 13:15:17.897 [main] INFO  ru.liga.App -  Lower: A#2
+24.03.2020 13:15:17.897 [main] INFO  ru.liga.App -  Range: 22
+24.03.2020 13:15:17.897 [main] TRACE ru.liga.App - Analysis of track notes by duration.
+24.03.2020 13:15:17.898 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+24.03.2020 13:15:17.900 [main] INFO  ru.liga.App - The number of notes by duration
+24.03.2020 13:15:17.900 [main] INFO  ru.liga.App - 178ms: 161
+24.03.2020 13:15:17.900 [main] INFO  ru.liga.App - 1250ms: 8
+24.03.2020 13:15:17.901 [main] INFO  ru.liga.App - 1428ms: 14
+24.03.2020 13:15:17.901 [main] INFO  ru.liga.App - 357ms: 162
+24.03.2020 13:15:17.901 [main] INFO  ru.liga.App - 535ms: 32
+24.03.2020 13:15:17.901 [main] INFO  ru.liga.App - 1607ms: 10
+24.03.2020 13:15:17.901 [main] INFO  ru.liga.App - 714ms: 27
+24.03.2020 13:15:17.901 [main] INFO  ru.liga.App - 892ms: 10
+24.03.2020 13:15:17.902 [main] INFO  ru.liga.App - 172ms: 3
+24.03.2020 13:15:17.902 [main] INFO  ru.liga.App - 2494ms: 1
+24.03.2020 13:15:17.902 [main] INFO  ru.liga.App - 1071ms: 1
+24.03.2020 13:15:17.903 [main] INFO  ru.liga.App - 351ms: 8
+24.03.2020 13:15:17.903 [main] TRACE ru.liga.App - Analysis of notes by the number of occurrences.
+24.03.2020 13:15:17.906 [main] INFO  ru.liga.App - List of notes by number of occurrences
+24.03.2020 13:15:17.906 [main] INFO  ru.liga.App - H2: 2
+24.03.2020 13:15:17.906 [main] INFO  ru.liga.App - H3: 21
+24.03.2020 13:15:17.906 [main] INFO  ru.liga.App - G3: 41
+24.03.2020 13:15:17.907 [main] INFO  ru.liga.App - F3: 29
+24.03.2020 13:15:17.907 [main] INFO  ru.liga.App - G4: 14
+24.03.2020 13:15:17.907 [main] INFO  ru.liga.App - E3: 21
+24.03.2020 13:15:17.907 [main] INFO  ru.liga.App - F4: 22
+24.03.2020 13:15:17.908 [main] INFO  ru.liga.App - D3: 14
+24.03.2020 13:15:17.909 [main] INFO  ru.liga.App - E4: 21
+24.03.2020 13:15:17.909 [main] INFO  ru.liga.App - D4: 22
+24.03.2020 13:15:17.910 [main] INFO  ru.liga.App - A#2: 1
+24.03.2020 13:15:17.911 [main] INFO  ru.liga.App - A#3: 52
+24.03.2020 13:15:17.911 [main] INFO  ru.liga.App - C4: 37
+24.03.2020 13:15:17.912 [main] INFO  ru.liga.App - A3: 24
+24.03.2020 13:15:17.912 [main] INFO  ru.liga.App - C#3: 6
+24.03.2020 13:15:17.912 [main] INFO  ru.liga.App - C#4: 35
+24.03.2020 13:15:17.913 [main] INFO  ru.liga.App - D#4: 16
+24.03.2020 13:15:17.914 [main] INFO  ru.liga.App - D#3: 2
+24.03.2020 13:15:17.918 [main] INFO  ru.liga.App - G#3: 38
+24.03.2020 13:15:17.921 [main] INFO  ru.liga.App - F#4: 1
+24.03.2020 13:15:17.922 [main] INFO  ru.liga.App - F#3: 10
+24.03.2020 13:15:17.923 [main] INFO  ru.liga.App - G#4: 8
+24.03.2020 13:16:28.488 [main] DEBUG ru.liga.App - Analyze midi file
+24.03.2020 13:16:28.524 [main] DEBUG ru.liga.App - Try to find track
+24.03.2020 13:16:28.524 [main] TRACE ru.liga.App - Getting fit tracks
+24.03.2020 13:16:28.524 [main] TRACE ru.liga.App - Extract tracks
+24.03.2020 13:16:28.559 [main] TRACE ru.liga.App - Tracks Extracted 15 from file.
+24.03.2020 13:16:28.559 [main] TRACE ru.liga.App - Track with voice
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.562 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.563 [main] TRACE ru.liga.App - Not good track
+24.03.2020 13:16:28.564 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.564 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.564 [main] TRACE ru.liga.App - Checking the track for voice performance.
+24.03.2020 13:16:28.564 [main] TRACE ru.liga.App - Good track
+24.03.2020 13:16:28.564 [main] TRACE ru.liga.App - Found 8 tracks suitable for performance by voice.
+24.03.2020 13:16:28.569 [main] DEBUG ru.liga.App - All TextEvent in file 438
+24.03.2020 13:16:28.570 [main] INFO  ru.liga.App - Start analyze track
+24.03.2020 13:16:28.571 [main] TRACE ru.liga.App - Track Range Analysis
+24.03.2020 13:16:28.573 [main] INFO  ru.liga.App - Range :
+24.03.2020 13:16:28.573 [main] INFO  ru.liga.App -  Upper: G#4
+24.03.2020 13:16:28.573 [main] INFO  ru.liga.App -  Lower: A#2
+24.03.2020 13:16:28.574 [main] INFO  ru.liga.App -  Range: 22
+24.03.2020 13:16:28.574 [main] TRACE ru.liga.App - Analysis of track notes by duration.
+24.03.2020 13:16:28.574 [main] TRACE ru.liga.App - Retrieved event Tempo = 0 (0): Tempo
+24.03.2020 13:16:28.576 [main] INFO  ru.liga.App - The number of notes by duration
+24.03.2020 13:16:28.576 [main] INFO  ru.liga.App - 178ms: 161
+24.03.2020 13:16:28.576 [main] INFO  ru.liga.App - 1250ms: 8
+24.03.2020 13:16:28.576 [main] INFO  ru.liga.App - 1428ms: 14
+24.03.2020 13:16:28.576 [main] INFO  ru.liga.App - 357ms: 162
+24.03.2020 13:16:28.577 [main] INFO  ru.liga.App - 535ms: 32
+24.03.2020 13:16:28.577 [main] INFO  ru.liga.App - 1607ms: 10
+24.03.2020 13:16:28.577 [main] INFO  ru.liga.App - 714ms: 27
+24.03.2020 13:16:28.577 [main] INFO  ru.liga.App - 892ms: 10
+24.03.2020 13:16:28.577 [main] INFO  ru.liga.App - 172ms: 3
+24.03.2020 13:16:28.577 [main] INFO  ru.liga.App - 2494ms: 1
+24.03.2020 13:16:28.578 [main] INFO  ru.liga.App - 1071ms: 1
+24.03.2020 13:16:28.578 [main] INFO  ru.liga.App - 351ms: 8
+24.03.2020 13:16:28.578 [main] TRACE ru.liga.App - Analysis of notes by the number of occurrences.
+24.03.2020 13:16:28.579 [main] INFO  ru.liga.App - List of notes by number of occurrences
+24.03.2020 13:16:28.581 [main] INFO  ru.liga.App - H2: 2
+24.03.2020 13:16:28.582 [main] INFO  ru.liga.App - H3: 21

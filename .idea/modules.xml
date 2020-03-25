@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-internship.iml" filepath="$PROJECT_DIR$/java-internship.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javacore-final/javacore-final.iml" filepath="$PROJECT_DIR$/javacore-final/javacore-final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javacore-from-uml/javacore-from-uml.iml" filepath="$PROJECT_DIR$/javacore-from-uml/javacore-from-uml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javacore-song-task/javacore-song-task.iml" filepath="$PROJECT_DIR$/javacore-song-task/javacore-song-task.iml" />
+    </modules>
+  </component>
+</project>
