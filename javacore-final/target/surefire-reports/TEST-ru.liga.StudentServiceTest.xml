@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="ru.liga.StudentServiceTest" time="0.075" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="ru.liga.StudentServiceTest" time="0.065" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -60,6 +60,6 @@
     <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ru.liga.StudentServiceTest" name="studentsWhoJustFinishedEducationTest" time="0.075"/>
-  <testcase classname="ru.liga.StudentServiceTest" name="transferStudentsToNextCourseTest" time="0"/>
+  <testcase classname="ru.liga.StudentServiceTest" name="studentsWhoJustFinishedEducationTest" time="0.064"/>
+  <testcase classname="ru.liga.StudentServiceTest" name="transferStudentsToNextCourseTest" time="0.001"/>
 </testsuite>

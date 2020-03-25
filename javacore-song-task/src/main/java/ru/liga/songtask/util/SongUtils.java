@@ -28,7 +28,6 @@ public class SongUtils {
     private static Logger logger = LoggerFactory.getLogger(App.class);
 
     public static int tickToMs(float bpm, int resolution, long amountOfTick) {
-//        return (int) (60000.0F / bpm * resolution * (float) amountOfTick);
         return (int) (((60 * 1000) / (bpm * resolution)) * amountOfTick);
     }
 
