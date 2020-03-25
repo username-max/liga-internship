@@ -1,22 +1,13 @@
 package ru.liga;
 
 import com.leff.midi.MidiFile;
-import org.jboss.arquillian.container.test.api.Deployment;
-import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
-import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import ru.liga.songtask.util.Analyzer;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-
-import static org.junit.Assert.*;
 
 public class AnalyzerTest {
     public static Analyzer analyzer;

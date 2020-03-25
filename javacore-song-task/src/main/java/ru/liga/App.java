@@ -7,9 +7,7 @@ import java.io.IOException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.liga.songtask.util.Analyzer;
-import ru.liga.songtask.util.Changer;
-
+import ru.liga.songtask.util.*;
 public class App {
     private static Logger logger = LoggerFactory.getLogger(App.class);
 
