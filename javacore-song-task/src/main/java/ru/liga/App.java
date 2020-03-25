@@ -2,14 +2,18 @@ package ru.liga;
 
 
 import com.leff.midi.MidiFile;
+import com.leff.midi.MidiTrack;
 import com.leff.midi.event.MidiEvent;
 import com.leff.midi.event.NoteOff;
 import com.leff.midi.event.NoteOn;
 import com.leff.midi.event.meta.Tempo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import ru.liga.songtask.domain.Note;
 import ru.liga.songtask.domain.NoteSign;
+import ru.liga.songtask.util.Analyzer;
+import ru.liga.songtask.util.Changer;
 import ru.liga.songtask.util.SongUtils;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,71 +24,27 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 public class App {
 
-    /**
-     * Это пример работы, можете всё стирать и переделывать
-     * Пример, чтобы убрать у вас начальный паралич разработки
-     * Также посмотрите класс SongUtils, он переводит тики в миллисекунды
-     * Tempo может быть только один
-     */
+    public static Logger logger = LoggerFactory.getLogger(App.class);
+
     public static void main(String[] args) throws IOException {
-        MidiFile midiFile = new MidiFile(new FileInputStream("C:\\Users\\Xiaomi\\IdeaProjects\\liga-internship\\javacore-song-task\\src\\main\\resources\\Wrecking Ball.mid"));
-        List<Note> notes = eventsToNotes(midiFile.getTracks().get(3).getEvents());
-        Tempo last = (Tempo) midiFile.getTracks().get(0).getEvents().last();
-        Note ninthNote = notes.get(8);
-        System.out.println("Длительность девятой ноты (" + ninthNote.sign().fullName() + "): " + SongUtils.tickToMs(last.getBpm(), midiFile.getResolution(), ninthNote.durationTicks()) + "мс");
-        System.out.println("Все ноты:");
-        System.out.println(notes);
-    }
+        logger.trace("Start program");
+        MidiFile midiFile = new MidiFile(new FileInputStream(
+                "C:\\Project\\Java\\Стажировка\\Домашниее задания\\liga-internship\\javacore-song-task" +
+                        "\\src\\main\\resources\\Belle.mid"));
+//        for (String str : args){
+//            if (args[1].equals("analyze")){
+//                Analyzer.start(midiFile);
+//            }
+//            if (args[1].equals("change")){
+//                Changer.start(midiFile);
+//            }
+//        }
 
-    /**
-     * Этот метод, чтобы вы не афигели переводить эвенты в ноты
-     *
-     * @param events эвенты одного трека
-     * @return список нот
-     */
-    public static List<Note> eventsToNotes(TreeSet<MidiEvent> events) {
-        List<Note> vbNotes = new ArrayList<>();
+        Analyzer.start(midiFile);
+        MidiTrack track= SongUtils.getVoiceTrack(midiFile);
+        System.out.println(track.getSize());
 
-        Queue<NoteOn> noteOnQueue = new LinkedBlockingQueue<>();
-        for (MidiEvent event : events) {
-            if (event instanceof NoteOn || event instanceof NoteOff) {
-                if (isEndMarkerNote(event)) {
-                    NoteSign noteSign = NoteSign.fromMidiNumber(extractNoteValue(event));
-                    if (noteSign != NoteSign.NULL_VALUE) {
-                        NoteOn noteOn = noteOnQueue.poll();
-                        if (noteOn != null) {
-                            long start = noteOn.getTick();
-                            long end = event.getTick();
-                            vbNotes.add(
-                                    new Note(noteSign, start, end - start));
-                        }
-                    }
-                } else {
-                    noteOnQueue.offer((NoteOn) event);
-                }
-            }
-        }
-        return vbNotes;
-    }
-
-    private static Integer extractNoteValue(MidiEvent event) {
-        if (event instanceof NoteOff) {
-            return ((NoteOff) event).getNoteValue();
-        } else if (event instanceof NoteOn) {
-            return ((NoteOn) event).getNoteValue();
-        } else {
-            return null;
-        }
-    }
-
-    private static boolean isEndMarkerNote(MidiEvent event) {
-        if (event instanceof NoteOff) {
-            return true;
-        } else if (event instanceof NoteOn) {
-            return ((NoteOn) event).getVelocity() == 0;
-        } else {
-            return false;
-        }
 
     }
+
 }
