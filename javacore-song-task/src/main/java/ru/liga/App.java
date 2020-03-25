@@ -1,90 +1,75 @@
 package ru.liga;
 
-
 import com.leff.midi.MidiFile;
-import com.leff.midi.event.MidiEvent;
-import com.leff.midi.event.NoteOff;
-import com.leff.midi.event.NoteOn;
-import com.leff.midi.event.meta.Tempo;
-import ru.liga.songtask.domain.Note;
-import ru.liga.songtask.domain.NoteSign;
-import ru.liga.songtask.util.SongUtils;
 
-import java.io.FileInputStream;
+import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
-import java.util.TreeSet;
-import java.util.concurrent.LinkedBlockingQueue;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import ru.liga.songtask.util.Analyzer;
+import ru.liga.songtask.util.Changer;
 
 public class App {
+    private static Logger logger = LoggerFactory.getLogger(App.class);
 
-    /**
-     * Это пример работы, можете всё стирать и переделывать
-     * Пример, чтобы убрать у вас начальный паралич разработки
-     * Также посмотрите класс SongUtils, он переводит тики в миллисекунды
-     * Tempo может быть только один
-     */
     public static void main(String[] args) throws IOException {
-        MidiFile midiFile = new MidiFile(new FileInputStream("C:\\Users\\Xiaomi\\IdeaProjects\\liga-internship\\javacore-song-task\\src\\main\\resources\\Wrecking Ball.mid"));
-        List<Note> notes = eventsToNotes(midiFile.getTracks().get(3).getEvents());
-        Tempo last = (Tempo) midiFile.getTracks().get(0).getEvents().last();
-        Note ninthNote = notes.get(8);
-        System.out.println("Длительность девятой ноты (" + ninthNote.sign().fullName() + "): " + SongUtils.tickToMs(last.getBpm(), midiFile.getResolution(), ninthNote.durationTicks()) + "мс");
-        System.out.println("Все ноты:");
-        System.out.println(notes);
+        if (args.length > 1) {
+            getArgs(args);
+        } else {
+            logger.info("No args");
+        }
     }
 
-    /**
-     * Этот метод, чтобы вы не афигели переводить эвенты в ноты
-     *
-     * @param events эвенты одного трека
-     * @return список нот
-     */
-    public static List<Note> eventsToNotes(TreeSet<MidiEvent> events) {
-        List<Note> vbNotes = new ArrayList<>();
+    public static void analyze(String path) throws IOException {
+        logger.debug("Analyze midi file");
+        MidiFile midiFile = new MidiFile(new File(path));
+        Analyzer analyze = new Analyzer(midiFile);
+        analyze.fullAnalize();
+    }
 
-        Queue<NoteOn> noteOnQueue = new LinkedBlockingQueue<>();
-        for (MidiEvent event : events) {
-            if (event instanceof NoteOn || event instanceof NoteOff) {
-                if (isEndMarkerNote(event)) {
-                    NoteSign noteSign = NoteSign.fromMidiNumber(extractNoteValue(event));
-                    if (noteSign != NoteSign.NULL_VALUE) {
-                        NoteOn noteOn = noteOnQueue.poll();
-                        if (noteOn != null) {
-                            long start = noteOn.getTick();
-                            long end = event.getTick();
-                            vbNotes.add(
-                                    new Note(noteSign, start, end - start));
-                        }
+    public static void getArgs(String[] args) throws IOException {
+        String params = args[1].trim();
+        if (params.equals("analyze")) {
+            analyze(args[0]);
+        } else {
+            Integer trans = null;
+            Float tempo = null;
+            if (params.equals("change")) {
+                if (args[2].equals("-trans"))
+                    try {
+                        trans = Integer.valueOf(Integer.parseInt(args[3]));
+                    } catch (Exception e) {
+                        logger.debug("Wrong agr: {}", e.getMessage());
                     }
-                } else {
-                    noteOnQueue.offer((NoteOn) event);
-                }
+                if (args[4].equals("-tempo"))
+                    try {
+                        tempo = Float.valueOf(Float.parseFloat(args[5]));
+                    } catch (Exception e) {
+                        logger.debug("Wrong arg: {}", e.getMessage());
+                    }
             }
-        }
-        return vbNotes;
-    }
-
-    private static Integer extractNoteValue(MidiEvent event) {
-        if (event instanceof NoteOff) {
-            return ((NoteOff) event).getNoteValue();
-        } else if (event instanceof NoteOn) {
-            return ((NoteOn) event).getNoteValue();
-        } else {
-            return null;
+            change(args[0], trans, tempo);
         }
     }
 
-    private static boolean isEndMarkerNote(MidiEvent event) {
-        if (event instanceof NoteOff) {
-            return true;
-        } else if (event instanceof NoteOn) {
-            return ((NoteOn) event).getVelocity() == 0;
-        } else {
-            return false;
+    private static void change(String arg, Integer trans, Float tempo) {
+        logger.info("Changing the file {}, with transposing in {} semitones and changing the tempo by {}%", new Object[]{arg, trans, tempo});
+        File file = new File(arg);
+        try {
+            MidiFile midiFile = new MidiFile(file);
+            MidiFile newMidi = Changer.changeMidi(midiFile, trans.intValue(), tempo.floatValue());
+            String newPath = getPath(trans.intValue(), tempo.floatValue(), file);
+            newMidi.writeToFile(new File(newPath));
+            logger.info("Modified file: {}", newPath);
+        } catch (IOException e) {
+            logger.trace("Midi file error");
         }
+    }
 
+    private static String getPath(int trans, float tempo, File file) {
+        logger.info("File changed");
+        String builder = file.getName().replace(".mid", "") + "-trans" + trans + "-tempo" + tempo + ".mid";
+        return file.getParentFile().getAbsolutePath() + File.separator + builder;
     }
 }
